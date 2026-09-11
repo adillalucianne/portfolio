@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f3a0aa;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #30150e;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+p {
+    margin-top: 15px;
+}
+
+section {
+    background-color: #f2e5c5;
+}
+
+.sobremim {
+    background-color: #550b18;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.texto1 {
+    width: 500px;
+    margin-left: 40px;
+    color: #f2e5c5;
+}
+
+.img {
+    background-color: #f2e5c5;
+    width: 200px;
+    height: 300px;
+    border-radius: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    border: 5px solid #f2e5c5;
+}
+
+.img img {
+    width: 200px;
+    height: 300px;
+    border-radius: 90px;
+}
+
+.projetos h2 {
+    background-color: #30150e;
+    height: 60px;
+    color: #f3a0aa;
+}
+
+.projetoesq {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 20px;
+    
+}
+
+.projetodir {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+aside img{
+    background-color: #550b18;
+    width: 500px;
+    height: 300px;
+    border: 5px solid #550b18;
+}
+
+.texto2 {
+    width: 500px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.informacoes h2 {
+    background-color: #30150e;
+    height: 60px;
+    margin-top: 10px;
+    color: #f3a0aa;
+}
+
+.partefinal {
+    display: flex;
+    background-color: #550b18;
+}
+
+.texto3 {
+    background-color: #f2e5c5;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 230px;
+    height: 220px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #f3a0aa;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #30150e;
+}
