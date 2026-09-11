@@ -1,0 +1,93 @@
+body{
+    background-color: #DCC5B1;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    background-color: #9D735C;
+    color: #EDE6DE;
+    text-align: center;
+}
+
+#titulo {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.container-produtos {
+    margin-top: 30px;
+    background-color: #EDE6DE;
+    width: 600px;
+    height: 570px;
+    margin-left: 450px;
+}
+
+.produto {
+    width: 500px;
+    height: 450px;
+    color: black;
+    padding: 20px;
+}
+
+.produtos {
+    display: flex;
+}
+.produtos img {
+    width: 200px;
+    height: 200px;
+    margin: 15px 8px;
+}
+
+.produto p{
+    margin: 0;
+    font-size: 20px;
+}
+
+.produto p del {
+    color: red;
+    font-size: 18px;
+}
+
+.produto h2 {
+    margin: 5px 0px;
+    font-size: 25px;
+}
+
+.produto h5 {
+    font-weight: normal;
+}
+.produto .link {
+    width: 260px;
+    height: 30px;
+    margin-top: 15px;
+    display: block;
+    background-color: #9D735C;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 140px;
+
+}
+
+.link:hover {
+    background-color: #9D735C;
+    font-size: 23px;
+}
+
+.footer {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: 555;
+}
+
+a {
+    color: #B38D73;
+}
